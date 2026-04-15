@@ -17,9 +17,21 @@ A premium, high-converting platform for career guidance, overseas admission plan
 - **Icons**: Lucide React
 - **Typography**: Inter / Outfit (Modern Sans Serif)
 
-## 🚀 Getting Started
+## 🚀 Deployment
 
-### 1. Installation
+The easiest way to host this website is via **Vercel**. It is optimized for Next.js and will automatically deploy your code from this GitHub repository.
+
+### Steps to Host:
+1.  Go to [Vercel](https://vercel.com/new).
+2.  Import this repository (`Meena_R`).
+3.  Add the following **Environment Variables** in the Vercel dashboard:
+    -   `NEXT_PUBLIC_SANITY_PROJECT_ID`: `il7kwo8v`
+    -   `NEXT_PUBLIC_SANITY_DATASET`: `production`
+4.  Click **Deploy**.
+
+Your website will be live at a `.vercel.app` URL within minutes!
+
+## 🚀 Getting Started (Local Development)
 
 ```bash
 npm install
