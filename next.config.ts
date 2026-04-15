@@ -1,14 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'cdn.sanity.io',
-      },
-    ],
+    unoptimized: true,
   },
+  basePath: '/Meena_R',
+  assetPrefix: '/Meena_R',
 };
 
 export default nextConfig;
